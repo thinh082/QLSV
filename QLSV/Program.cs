@@ -31,7 +31,7 @@ builder.Services.AddScoped<ITeacherService, TeacherService>();
 builder.Services.AddScoped<IAdminService, AdminService>();
 
 // Đăng ký logging
-builder.Services.AddLogging();
+builder.Services.AddLogging();//
 
 var app = builder.Build();
 
